@@ -1,25 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Katana Estate</title>
 </head>
+
 <body>
     <!-- nav sec -->
     <div class="header">
+        <button type="button" class="nav-toggler">
+            <span></span>
+        </button>
+        <!-- <input type="checkbox" id="toggle">
+        <label for="toggle" class="nav-toggler">
+            <span></span>
+        </label> -->
+
         <div class="logo">
             <img src="" alt="">
-            <h1>Katana Real Estate</h1>
+            <h2>Katana Estate</h2>
         </div>
 
         <nav class="nav">
             <ul>
-                <li><a href="#"></a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#">Property</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
+
+        <div class="admin">
+            <a href="#">Admin Panel</a>
+        </div>
     </div>
     <!-- end nav sec -->
+
+    <!-- home sec -->
+    <div class="home" id="home">
+        <div class="small">
+            <div class="img">
+                <img src="image/istockphoto-1165384568-612x612.jpg" alt="">
+            </div>
+            <div class="cont">
+                <p>
+                    Gated real estate properties ideal for residential and
+                    commercial development. Ready to use. Book 1/8th of an acre
+                    plot with 20% deposit and the rest you pay in 6 months.
+                </p>
+            </div>
+            <div class="search">
+            <input type="text" placeholder="Enter an address, neighborhood or ZIP code">
+
+            </div>
+        </div>
+        <div class="large">
+            <h1>Find your dream home right away</h1>
+            <div class="img">
+                <img src="image/istockphoto-1177797403-612x612.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- end home sec -->
+
+    <div class="service" id="service">
+        <div class="serve">
+            <span></span>
+            <h3>Find your future home</h3>
+            <p>We help you find a new home by offering a smart real
+                estate experience.
+            </p>
+        </div>
+        <div class="serve">
+            <span></span>
+            <h3>Buy or rent home</h3>
+            <p>We help you find a new home by offering a smart real
+                estate experience.
+            </p>
+        </div>
+        <div class="serve">
+            <span></span>
+            <h3>Experienced Agent</h3>
+            <p>We help you find a new home by offering a smart real
+                estate experience.
+            </p>
+        </div>
+    </div>
+
+
+    <script src="script.js" defer></script>
 </body>
+
 </html>
