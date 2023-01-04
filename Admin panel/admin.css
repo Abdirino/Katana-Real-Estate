@@ -1,0 +1,47 @@
+@font-face {
+    font-family: montage;
+    src: url(/Montage_Font/Montage-Demo.ttf);
+  }
+  @font-face {
+    font-family: randolph;
+    src: url(/randolph-unique-sans-serif-font/Randolph/RANDOLPH.ttf);
+  }
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.side-nav{
+    height: 100vh;
+    width: 200px;
+    background: #3681f9;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.side-nav h1{
+    font-family: randolph;
+    padding: 6px;
+    font-size: 25px;
+}
+.side-nav span i{
+    font-size: 30px;
+    background: white;
+    border-radius: 50%;
+    padding: 4px;
+}
+.side-nav h2{
+    font-family: randolph;
+    word-spacing: 1.5px;
+    color: white;
+}
+
+
+.content{
+    position: relative;
+    left: 200px;
+}
