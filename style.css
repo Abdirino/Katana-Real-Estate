@@ -261,7 +261,7 @@ html {
 
 /* property sec */
 .property{
-  padding: 50px 0;
+  padding: 35px 0;
   width: 100%;
   background: #acb6e5;
   display: flex;
@@ -297,9 +297,196 @@ html {
   width: 100%;
   object-fit: cover;
 }
+.property .houses .house .location{
+  display: flex;
+  flex-direction: row;
+}
+.property .houses .house .location i{
+  color: blue;
+  font-size: 30px;
+  padding: 6px 15px;
+}
+.property .houses .house .location p{
+  font-size: 15px;
+  padding: 6px 12px;
+  font-family: montage;
+}
+.property .houses .house p{
+  font-family: randolph;
+  font-size: 19px;
+  padding: 6px 12px;
+}
+.property .houses .house h2{
+  font-family: randolph;
+  font-size: 34px;
+  padding: 5px 10px;
+  color: aqua;
+}
 /* end property sec */
 
+/* blog sec */
+.blog{
+  padding: 40px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.blog .pic{
+  flex: 1 1 400px;
+  margin: 15px;
+  overflow: hidden;
+  border-radius: 6px;
+}
+.blog .pic img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.blog .article{
+  flex: 1 1 400px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.blog .article h1{
+  font-family: randolph;
+  font-size: 35px;
+  padding: 10px;
+}
+.blog .article .blogs{
+  display: flex;
+  flex-direction: row;
+  padding: 20px 10px;
+}
+.blog .article .blogs span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 20px;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+.blog .article .blogs .art{
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+.blog .article .blogs .art h3{
+  font-family: randolph;
+  font-size: 23px;
+  padding: 6px;
+}
+.blog .article .blogs .art p{
+  font-family: montage;
+  font-size: 20px;
+  padding: 6px;
+}
+/* end blog sec */
+
+/* preview sec */
+.preview{
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+}
+.preview h1{
+  font-family: randolph;
+  font-size: 34px;
+  padding: 26px 44px;
+}
+.preview .reviews{
+  display: flex;
+  flex-direction: row;
+}
+.preview .reviews .review{
+  flex: 1 1 300px;
+  box-shadow: 0 0 40px;
+  margin: 12px;
+  padding: 17px 12px;
+  border-radius: 6px;
+}
+.preview .reviews .review span{
+  padding: 15px;
+}
+.preview .reviews .review p{
+  font-family: montage;
+  font-size: 18px;
+  padding: 10px;
+}
+.preview .reviews .review .person{
+  display: flex;
+  flex-direction: row;
+  padding: 15px 0;
+}
+.preview .reviews .review .person img{
+  width: 50px; height: 50px;
+  padding: 6px;
+  border-radius: 50%;
+  border: 1px solid black;
+  position: relative;
+  top: 10px;
+  object-fit: contain;
+}
+.preview .reviews .review .person .details{
+  display: flex;
+  flex-direction: column;
+}
+.preview .reviews .review .person .details h2{
+  font-family: randolph;
+  font-size: 17px;
+  padding: 6px;
+}
+.preview .reviews .review .person .details h3{
+  font-family: montage;
+  font-size: 15px;
+  padding: 6px;
+}
+/* end preview sec */
+
+/* contact sec */
+.contact{
+  padding: 30px 0;
+  background: #071d19;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+.contact .us{
+  flex: 1 1 250px;
+  margin: 10px;
+}
+.contact .us .head{
+  display: flex;
+  flex-direction: row;
+}
+.contact .com{
+  flex: 1 1 100px;
+  margin: 10px;
+}
+.contact .con{
+  flex: 1 1 100px;
+  margin: 10px;
+}
+.contact .more{
+  flex: 1 1 100px;
+  margin: 10px;
+}
+.contact .socials{
+  flex: 1 1 250px;
+  margin: 10px;
+}
+/* end contact sec */
+
 @media (max-width: 1070px) {
+  .preview .reviews{
+    flex-wrap: wrap;
+  }
+  .contact{
+    flex-wrap: wrap;
+  }
+  .property .houses{
+    flex-wrap: wrap;
+  }  
   .home {
     flex-wrap: wrap;
   }
