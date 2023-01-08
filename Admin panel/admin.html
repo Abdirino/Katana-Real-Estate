@@ -5,54 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Panel</title>
+    <title>Katana Estate Admin Panel</title>
     <link rel="stylesheet" href="admin.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
     <!-- nav sec -->
-    <div class="navbar">
-        <div class="side-nav">
-            <h1>Katana Estate</h1>
-            <span><i class='bx bx-knife'></i></span>
-            <h2>Admin Panel</h2>
-        </div>
-        <div class="footer">
-            <p>Social Media - </p>
-            <div class="socials">
-                <i class='bx bxl-instagram'></i>
-                <i class='bx bxl-twitter'></i>
-                <i class='bx bxl-facebook'></i>
-                <i class='bx bxl-linkedin'></i>
-            </div>
-        </div>
-    </div>
-    <!-- end nav sec -->
-
-    <div class="content">
+    <input type="checkbox" id="drawer-toggle" name="drawer-toggle"/>
+   <label for="drawer-toggle" id="drawer-toggle-label"></label>
+   <header>Katana Estate Admin Panel</header>
+   <nav id="drawer">
+      <ul>
         <div class="admin">
-            <div class="user">
-                <div class="img">
-                    <img src="" alt="">
-                </div>
-                <h2>Abdirino Ahash</h2>
+            <img src="/image/BNCF_140B_3_A_1R_crop.webp" alt="">
+            <div class="det">
+                <h2>Lisa Nova</h2>
                 <p>Administrator</p>
             </div>
-
-            <div class="graph">
-                
-            </div>
-            
         </div>
 
-        <div class="add-property"></div>
-    </div>
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+         <li><i class='bx bxs-wallet-alt'></i><a href="#">payouts</a></li>
+         <li><i class='bx bxs-comment-dots'></i><a href="#">Inbox</a></li>
+         <li><i class='bx bxs-bell-ring'></i><a href="#">Notification</a></li>
+         <li><i class='bx bxs-cog'></i><a href="#">Settings</a></li>
+      </ul>
+   </nav>
+   <div id="page-content">
+      <p>Page Content</p>
+   </div>
+    <!-- end nav sec -->
     <script src="admin.js"></script>
 </body>
 

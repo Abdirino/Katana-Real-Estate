@@ -320,7 +320,7 @@ html {
   font-family: randolph;
   font-size: 34px;
   padding: 5px 10px;
-  color: aqua;
+  color: rgb(23, 115, 115);
 }
 /* end property sec */
 
@@ -362,9 +362,23 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 25px 20px;
+}
+.blog .article .blogs span i{
+  font-size: 30px;
+  padding: 25px 15px;
   border-radius: 6px;
-  border: 1px solid black;
+}
+.blog .article .blogs span .bxs-hand-right{
+  color: rgb(254, 100, 126);
+  background-color: pink;
+}
+.blog .article .blogs span .bxs-home-heart{
+  color: rgb(40, 139, 245);
+  background: rgb(171, 171, 250);
+}
+.blog .article .blogs span .bxs-bank{
+  color: rgb(246, 213, 30);
+  background: rgb(247, 247, 157);
 }
 .blog .article .blogs .art{
   display: flex;
@@ -409,6 +423,11 @@ html {
 .preview .reviews .review span{
   padding: 15px;
 }
+.preview .reviews .review span i{
+  font-size: 30px;
+  color: aqua;
+  padding: 5px;
+}
 .preview .reviews .review p{
   font-family: montage;
   font-size: 18px;
@@ -420,12 +439,16 @@ html {
   padding: 15px 0;
 }
 .preview .reviews .review .person img{
-  width: 50px; height: 50px;
+  width: 70px; height: 70px;
   padding: 6px;
   border-radius: 50%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   position: relative;
-  top: 10px;
+  top: 4px;
+  object-fit: contain;
+}
+.preview .reviews .review .person img img{
+  width: 100%; height: 100%;
   object-fit: contain;
 }
 .preview .reviews .review .person .details{
@@ -462,12 +485,8 @@ html {
 .contact .us .head h1{
   font-family: randolph;
   font-size: 23px;
+  color: #38bea6;
   padding: 6px;
-}
-.contact .us .head span i{
-  padding: 15px;
-  color: white;
-  border-radius: 50%;
 }
 .contact .us p{
   font-family: montage;
@@ -479,6 +498,7 @@ html {
   margin: 10px;
 }
 .contact .com h1{
+  color: rgb(122, 122, 24);
   font-family: randolph;
   font-size: 20px;
   padding: 6px;
@@ -498,6 +518,7 @@ html {
   margin: 10px;
 }
 .contact .con h1{
+  color: crimson;
   font-family: randolph;
   font-size: 20px;
   padding: 6px;
@@ -517,6 +538,7 @@ html {
   margin: 10px;
 }
 .contact .more h1{
+  color: greenyellow;
   font-family: randolph;
   font-size: 20px;
   padding: 6px;
@@ -536,9 +558,24 @@ html {
   margin: 10px;
 }
 .contact .socials h1{
+  color: #b51b4c;
   font-family: randolph;
   padding: 6px;
   font-size: 20px;
+}
+.contact .socials .social{
+  display: flex;
+  flex-direction: row;
+}
+.contact .socials .social i{
+  font-size: 30px;
+  cursor: pointer;
+  padding: 7px;
+  color: rgb(14, 157, 140);
+  transition: all .6s ease;
+}
+.contact .socials .social i:hover{
+  transform: scale(1.2);
 }
 /* end contact sec */
 
