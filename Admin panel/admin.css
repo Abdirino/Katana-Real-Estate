@@ -184,7 +184,7 @@ header {
 }
 
 #drawer ul a:hover {
-  color: white;
+  padding-left: 25px;
 }
 
 /* Responsive MQ */
